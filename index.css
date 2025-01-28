@@ -1,14 +1,27 @@
 * {
+    box-sizing: border-box;
     font-family:Georgia, 'Times New Roman', Times, serif;
     padding-left: 10px;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+.languages {
+    display: flex;
+    flex-direction:row;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
 }
 
 h1 {
-    color: yellowgreen;
+    text-align: center;
+    color: rgb(90, 158, 221);
 }
 
-li {
-    list-style-type: disc;
+img{
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
